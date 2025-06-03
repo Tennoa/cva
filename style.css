@@ -1,3 +1,7 @@
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 body{
     background-color: #F2F0F1;
 }
@@ -5,21 +9,21 @@ body{
 
 .header_head{
     display:inline-flex;
-    padding-top:13px;
-    padding-bottom: 12px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    margin-left: 100px;
+    margin-right: 20px;
 }
 .header_head-menu{
     display: flex;
 }
 .header_head-logo{
-    padding-right: 433px;
+    padding-right: 973px;
 }
 .header_head-menu-list ul {
     display: flex;
-    gap: 20px; /* Расстояние между иконками */
-    list-style: none; /* Убираем маркеры */
+    gap: 20px; 
+    list-style: none; 
     padding-right: 32px;
     padding-top: 38px;
     margin: 0;
@@ -27,20 +31,21 @@ body{
 }
 .header_head-search{
     padding-top: 30px;
-    padding-right: 313px;
+    padding-right: 743px;
+
 
 }
 .header_head-search input {
 background-color:#F2F0F1;
-    width: 233px;
-    height: 30px;
+    width: 253px;
+    height: 40px;
     padding-right: 35px;
     padding-left: 10px;
     font-size: 18px;
     border-radius: 47px;
     border: 2px solid;
     border-color: #00000066;
-    background-position: 248px center;
+    background-position: 268px center;
     background-image:url(/assets/icons/Icon.svg) ;
     background-repeat: no-repeat;
     background-size: 18px 18px;
@@ -49,8 +54,23 @@ background-color:#F2F0F1;
 
 .header_catalog{
     background-color: #AF8974;
-    width: 100%;
     color:white;
-    display: inline-flex;
-    
+    height: 63px;
+    width: 100%;
+
+}
+.catalog_list{
+    display: flex;
+    padding-top: 18px;
+    padding-right: 250px;
+    padding-left: 150px;
+    justify-content:space-between;
+}
+.catalog_link{
+    font-family:montserrat,  sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:25px;
+
+        
 }
